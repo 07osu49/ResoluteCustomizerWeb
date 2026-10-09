@@ -6,8 +6,9 @@ Web app for iPhone, Android and desktop.
 
 On iPhone, open the link in Safari, tap Share, then **Add to Home Screen**. On Android, use your browser's **Install app** or **Add to Home Screen** option. After the first successful visit, the customizer can also load offline; sending email still requires connectivity.
 
-## Current version: V153
+## Current version: V154
 
+- Two top-string form has the narrow triangular upper mesh from the supplied reference.
 - Mesh is limited to the pocket opening and never appears through the clear frame.
 - Head color and coverage sliders tint clear plastic while preserving translucency.
 - Clear plastic head with a neutral grey tint, visible contours and reflective rims; mesh and strings remain opaque.
