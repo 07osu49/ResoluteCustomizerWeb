@@ -6,8 +6,9 @@ Web app for iPhone, Android and desktop.
 
 On iPhone, open the link in Safari, tap Share, then **Add to Home Screen**. On Android, use your browser's **Install app** or **Add to Home Screen** option. After the first successful visit, the customizer can also load offline; sending email still requires connectivity.
 
-## Current version: V147
+## Current version: V148
 
+- The top shooter hanging end passes behind the mesh.
 - Mesh extends to both inner sidewalls to fill the grey gaps.
 - Six, four and two top-string options with horizontal spans behind the head.
 - Doubled loose shooter ends, with extra top corner extensions removed.
