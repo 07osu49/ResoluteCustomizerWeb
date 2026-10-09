@@ -1,11 +1,26 @@
 {
+  "id": "./",
   "name": "RESOLUTE Lacrosse Customizer",
   "short_name": "RESOLUTE",
+  "description": "Customize your lacrosse head, mesh, top strings and shooters.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#8f9499",
+  "background_color": "#ffffff",
   "theme_color": "#111111",
   "orientation": "any",
-  "description": "RESOLUTE Lacrosse Head Customizer"
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
