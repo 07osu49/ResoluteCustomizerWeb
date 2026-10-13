@@ -32,6 +32,7 @@ body{height:100dvh;box-sizing:border-box}
 
 
 
+<g id="customSidewallDrawing" pointer-events="none"></g>
 <g id="topShooterBraided" filter="url(#topShooterTintFilter)"><g transform="matrix(.17664 -.005255 0 .09 58.34 101.9)"><use href="#braidedShooterAsset" mask="url(#shooterBodyMask)"/><g transform="translate(-300 0) scale(2 1)"><use href="#braidedShooterAsset" clip-path="url(#shooterLeftEndClip)"/></g></g></g><g id="bottomShooterBraided" filter="url(#bottomShooterTintFilter)"><g transform="matrix(.17664 -.005255 0 .09 58.34 152.9)"><use href="#braidedShooterAsset" mask="url(#shooterBodyMask)"/><g transform="translate(-300 0) scale(2 1)"><use href="#braidedShooterAsset" clip-path="url(#shooterLeftEndClip)"/></g><g transform="translate(0 -530) scale(1 2)"><use href="#braidedShooterAsset" clip-path="url(#shooterHangingEndClip)"/></g></g></g>
 <use id="headShell" href="#headShellAsset"/>
 <g id="headPaint" mask="url(#photoMask)" style="mix-blend-mode:multiply"><rect id="topSolid" x="0" y="30" width="500" height="0" opacity=".82"/><rect id="topFade" x="0" y="30" width="500" height="0" fill="url(#topG)" opacity=".82"/><g clip-path="url(#bot1PriorityClip)"><rect id="botSolid" x="0" y="542" width="500" height="0" opacity=".82"/><rect id="botFade" x="0" y="542" width="500" height="0" fill="url(#botG)" opacity=".82"/></g><rect id="bot2Solid" x="0" y="542" width="500" height="0" opacity=".82"/><rect id="bot2Fade" x="0" y="542" width="500" height="0" fill="url(#bot2G)" opacity=".82"/></g>
@@ -42,7 +43,7 @@ body{height:100dvh;box-sizing:border-box}
 <g id="topStringPhotoVariants" mask="url(#topStringPhotoFrontMask)" filter="url(#topStringTintFilter)"><use id="topStringPhoto-six" href="#topStringAsset-six" visibility="visible"/><use id="topStringPhoto-four" href="#topStringAsset-four" visibility="hidden"/><use id="topStringPhoto-two" href="#topStringAsset-two" visibility="hidden"/></g>
 <g id="topStringFront" opacity="0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"></g>
 <path id="sh1" d="M129 143 Q250 90 371 143" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0"/><path id="sh2" d="M131 194 Q250 144 369 194" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round" opacity="0"/>
-</g><g id="customSidewallDrawing" pointer-events="none"></g></svg></section>
+</g></svg></section>
 <aside class="panel"><div class="tiny">Head color</div><label class="row" for="headClear"><span>Clear</span><input id="headClear" type="checkbox"></label>
 <div class="sub"><b>Top → Bottom</b><label class="row">Color<input id="topColor" type="color" value="#ffffff"></label><div class="row"><span>Coverage</span><span id="topVal">0%</span></div><input id="topFill" type="range" min="0" max="100" value="0"></div>
 <div class="sub"><b>Bottom → Top</b><label class="row">Color<input id="botColor" type="color" value="#ffffff"></label><div class="row"><span>Coverage</span><span id="botVal">0%</span></div><input id="botFill" type="range" min="0" max="100" value="0"></div>
