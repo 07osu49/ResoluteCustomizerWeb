@@ -1,4 +1,4 @@
-const CACHE = 'resolute-sidewall-six-hide-drawing-20261013';
+const CACHE = 'resolute-sidewall-color-only-20261013';
 const PREFIX = 'resolute-';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', event => {
