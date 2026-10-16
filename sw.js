@@ -1,6 +1,6 @@
-const CACHE = 'resolute-v186';
+const CACHE = 'resolute-v220';
 const PREFIX = 'resolute-';
-const ASSETS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
+const ASSETS = ['./', './index.html', './order-tracker.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
 });
