@@ -51,47 +51,47 @@
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Forest Green)",
+      "name": "Forest Green",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Black)",
+      "name": "Black",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Silver)",
+      "name": "Silver",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Metallic Gold)",
+      "name": "Metallic Gold",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Red)",
+      "name": "Red",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Blue)",
+      "name": "Blue",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Carolina Blue)",
+      "name": "Carolina Blue",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (White)",
+      "name": "White",
       "price": 2
     },
     {
       "category": "Sidewall String",
-      "name": "Sidewall Spool 100 yd (Yellow)",
+      "name": "Yellow",
       "price": 2
     },
     {
@@ -157,7 +157,7 @@
     {
       "category": "Stringing Service",
       "name": "Stringing Service",
-      "price": 25
+      "price": 35
     }
   ]
 }
