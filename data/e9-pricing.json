@@ -1,0 +1,163 @@
+{
+  "source": "e9 Pricing.xlsx",
+  "sheet": "Sheet2",
+  "column": "e9_Price",
+  "currency": "USD",
+  "items": [
+    {
+      "category": "Stick (Head)",
+      "name": "STX Hammer 1K",
+      "price": 109.99
+    },
+    {
+      "category": "Stick (Head)",
+      "name": "ECD Atom",
+      "price": 139.99
+    },
+    {
+      "category": "Stick (Head)",
+      "name": "Maverik Havok 2",
+      "price": 109.99
+    },
+    {
+      "category": "Stick (Head)",
+      "name": "STX Stallion 1K",
+      "price": 109.99
+    },
+    {
+      "category": "Stick (Head)",
+      "name": "ECD Mirage 3.0",
+      "price": 109.99
+    },
+    {
+      "category": "Stick (Head)",
+      "name": "StringKin Mark 3V",
+      "price": 119.99
+    },
+    {
+      "category": "Mesh",
+      "name": "StringKing Type 5x",
+      "price": 29.99
+    },
+    {
+      "category": "Mesh",
+      "name": "StringKing Type 5s",
+      "price": 29.99
+    },
+    {
+      "category": "Mesh",
+      "name": "ECD Hero 4.0",
+      "price": 24.99
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Forest Green)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Black)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Silver)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Metallic Gold)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Red)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Blue)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Carolina Blue)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (White)",
+      "price": 2
+    },
+    {
+      "category": "Sidewall String",
+      "name": "Sidewall Spool 100 yd (Yellow)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (Yellow)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (Gold)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (Forest Green)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (Navy Blue)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (Royal Blue)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (White)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (Hockey)",
+      "price": 2
+    },
+    {
+      "category": "Shooting String",
+      "name": "Shooting String (Black)",
+      "price": 2
+    },
+    {
+      "category": "Bottom String",
+      "name": "Bottom String (Various)",
+      "price": 2
+    },
+    {
+      "category": "Dye Product",
+      "name": "Rit Dyemore (Red)",
+      "price": 15
+    },
+    {
+      "category": "Dye Product",
+      "name": "Rit Dyemore (Graphite)",
+      "price": 15
+    },
+    {
+      "category": "Dye Product",
+      "name": "Rit Dyemore (Midnight Navy)",
+      "price": 15
+    },
+    {
+      "category": "Stringing Service",
+      "name": "Stringing Service",
+      "price": 25
+    }
+  ]
+}
