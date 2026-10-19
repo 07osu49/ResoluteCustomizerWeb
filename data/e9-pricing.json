@@ -50,6 +50,11 @@
       "price": 24.99
     },
     {
+      "category": "Top String",
+      "name": "Top String",
+      "price": 2
+    },
+    {
       "category": "Sidewall String",
       "name": "Forest Green",
       "price": 2
