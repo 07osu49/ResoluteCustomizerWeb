@@ -16,3 +16,6 @@ The GitHub Pages repository is **PUBLIC**. It is appropriate for app source code
 - Files can be downloaded to devices and could be exposed if those devices/accounts are compromised.
 - Never embed a GitHub Personal Access Token in a browser app.
 - For production use, use an authenticated backend and encrypted server-side backups, with role permissions, retention and restore tests.
+
+## Shared chart analytics
+The tracker now syncs a SHA-256 order key, status, received/updated dates, and deletion markers to Resolute Player Insight's shared database. Its API returns aggregate charts only. Customer names, contact details, specifications, photos, and notes are not sent. Existing local orders sync when the tracker is opened; saved edits and deletions sync, with a retry every 30 seconds. Full order details remain browser-local. GitHub still contains code rather than runtime order records.
