@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test('page opens and renders visible content', async ({ page }) => {
-  const response = await page.goto('/', { waitUntil: 'domcontentloaded' });
+  const response = await page.goto('/index.html', { waitUntil: 'domcontentloaded' });
   expect(response, 'Expected a document response').not.toBeNull();
   expect(response.status()).toBeLessThan(400);
   await expect(page.locator('body')).toBeVisible();
@@ -9,7 +9,7 @@ test('page opens and renders visible content', async ({ page }) => {
 });
 
 test('main page is usable at device width', async ({ page, isMobile }) => {
-  await page.goto('/', { waitUntil: 'domcontentloaded' });
+  await page.goto('/index.html', { waitUntil: 'domcontentloaded' });
   await expect(page.locator('body')).toBeVisible();
   const dimensions = await page.evaluate(() => ({
     viewport: document.documentElement.clientWidth,
