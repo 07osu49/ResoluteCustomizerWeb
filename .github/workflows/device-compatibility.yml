@@ -1,0 +1,25 @@
+name: Device compatibility smoke tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install test runner
+        run: npm install --no-save --no-package-lock @playwright/test@1.56.1
+      - name: Install browsers
+        run: npx playwright install --with-deps chromium firefox webkit
+      - name: Run desktop and mobile browser tests
+        run: npx playwright test --config=playwright.config.cjs
